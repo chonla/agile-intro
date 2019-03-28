@@ -1,0 +1,14 @@
+{
+    "title": "agile-intro",
+    "service": {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "theme": "black",
+    "deck": [
+        "cover",
+        "checkin",
+        "backward-bike",
+        "agile-definition"
+    ]
+}
