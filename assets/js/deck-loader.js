@@ -17,7 +17,7 @@ function document_loaded(callback) {
                     responseType: 'text'
                 });
             })).then(axios.spread((...args) => {
-                const d = args.map((o) => o.data).join('');
+                const d = args.map((o, i) => o.data).join('');
                 document.getElementById('deck').innerHTML = d;
                 callback();
             }));
